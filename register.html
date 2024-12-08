@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.2.png">
+    <title>GrndZer0 Apparel</title>
+    <link rel="stylesheet" href="register.css">
+    <script defer src="Login-Register.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>GrndZer0 Apparel</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li><a href="login.html" class="login-register-btn">Login</a></li>
+                    <li><a href="register.html" class="login-register-btn">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="register" class="form-container">
+        <div class="form-form">
+            <h2>Register</h2>
+           <form id="registerForm" onsubmit="handleRegister(event)">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+    <p id="errorMessage" style="color: red; display: none;"></p>
+    <button type="submit">Register</button>
+</form>
+     <div class="form-toggle">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GrndZer0 Apparel. All Rights Reserved.</p>
+             <div class="social-icons">
+                <a href="https://www.facebook.com/share/15n7XG5NBb/" class="social-icon" target="blank">Facebook</a>
+                <a href="https://www.instagram.com/byonggg.13/?igsh=MWdjbTBoZGN0dzcxbQ%3D%3D&fbclid=IwZXh0bgNhZW0CMTEAAR3k0VVUl1ocILhctdvpC-f7HPrQ_lpexoZ-Vz-rEqwJojHj8XxYgWZQKvc_aem_yb1pUrhRsfj5y2c9DP3WvQ#" class="social-icon" target="blank">Instagram</a>
+                <a href="https://www.tiktok.com/@rixhhnell?is_from_webapp=1&sender_device=pc" class="social-icon" target="blank">Tiktok</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

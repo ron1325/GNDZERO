@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clothing Apparel Shop">
+    <meta name="keywords" content="Clothing, T-shirt, GroundZero Apparel, GroundZero, Hoodie,">
+    <meta name="author" content="GrndZer0 Apparel">
+    <!-- Favicon for the browser tab -->
+    <link rel="icon" type="image/x-icon" href="logo.2.png">
+    <title>GrndZer0 Apparel</title>
+    
+    <!-- Linking external CSS for styles -->
+    <link rel="stylesheet" href="Homepage.css">
+    
+    <!-- Linking external JavaScript files for functionality -->
+    <script defer src="homepage.js"></script>
+    <script defer src="Login-Register.js"></script>
+    <script defer src="shop.js"></script>
+</head>
+<body>
+    
+    <!-- Header section containing logo and navigation menu -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>GrndZer0 Apparel</h1>
+            </div>
+            <nav>
+                <ul>
+                    <!-- Navigation links for different pages -->
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <!-- Login/Register/Logout options -->
+                    <li><a href="login.html" id="login-btn">Login</a></li>
+                    <li><a href="register.html" id="register-btn">Register</a></li>
+                    <li><a href="#" id="logout-btn" style="display: none;">Log Out</a></li>
+                </ul>
+                <!-- Welcome message dynamically displayed based on user login -->
+                <div id="welcome-message" style="display: none; font-weight: bold;"></div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section showcasing the tagline -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>FROM NOTHING TO SOMETHING</h2>
+            <p>Discover unique styles that define modern fashion.</p>
+        </div>
+    </section>
+
+    <!-- New arrivals section showcasing products -->
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <h2 class="section-title">New Arrivals</h2>
+            <div class="product-grid">
+                <!-- Product card 1 -->
+                <div class="product-card" data-images='["pantss1.jpg", "pantss2.jpg"]'>
+                    <img src="3.jpg" alt="Pants">
+                    <h3>Gzz Pants</h3>
+                    <p>&#8369; 750</p>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    <a href="shop.html" class="btn shop-now">Shop Now</a>
+                </div>
+                <!-- Product card 2 -->
+                <div class="product-card" data-images='["h6.jpg", "h5.jpg"]'>
+                    <img src="product2a.jpg" alt="Hoodie">
+                    <h3>Zero Zenith</h3>
+                    <p>&#8369; 550</p>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    <a href="shop.html" class="btn shop-now">Shop Now</a>
+                </div>
+                <!-- Product card 3 -->
+                <div class="product-card" data-images='["t1.jpg", "t2.jpg"]'>
+                    <img src="product3a.jpg" alt="T-shirt">
+                    <h3>Blossom Breaker</h3>
+                    <p>&#8369; 350</p>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    <a href="shop.html" class="btn shop-now">Shop Now</a>
+                </div>
+                <!-- Product card 4 -->
+                <div class="product-card" data-images='["t3.jpg", "t5.jpg"]'>
+                    <img src="t3.jpg" alt="T-shirt">
+                    <h3>Star Grit Black</h3>
+                    <p>&#8369; 350</p>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    <a href="shop.html" class="btn shop-now">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section with social media links -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GrndZer0 Apparel. All Rights Reserved.</p>
+            <!-- Social media links -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/15n7XG5NBb/" class="social-icon" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/byonggg.13/?igsh=MWdjbTBoZGN0dzcxbQ%3D%3D&fbclid=IwZXh0bgNhZW0CMTEAAR3k0VVUl1ocILhctdvpC-f7HPrQ_lpexoZ-Vz-rEqwJojHj8XxYgWZQKvc_aem_yb1pUrhRsfj5y2c9DP3WvQ#" class="social-icon" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@rixhhnell?is_from_webapp=1&sender_device=pc" class="social-icon" target="_blank">Tiktok</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
